@@ -78,9 +78,9 @@ for n in range(len(p1)):
     OverflowError = trtl.Turtle()
     trtl.speed(20)
     trtl.penup()
-    trtl.goto(100,200)
+ 
     if flower == "roses" or flower == "rose":
-        trtl.goto(100,200)
+        trtl.goto(600,200)
      #insert rose code instead of the circle thingy magingy 
         for _ in range(howmany-1):
 
@@ -109,7 +109,7 @@ for n in range(len(p1)):
 
 
     if flower == "sunflowers" or flower == "sunflower":
-        trtl.goto(300,200)
+        trtl.goto(400,200)
         for _ in range(howmany-1):
               trtl.pendown()
               trtl.color("White")
@@ -175,7 +175,7 @@ for n in range(len(p1)):
 
 
     if flower == "lillies" or flower == "lily":
-       trtl.goto(500,200)
+       trtl.goto(100,200)
        for _ in range(howmany):
                   trtl.pendown()
                   trtl.color("White")
@@ -241,7 +241,7 @@ for n in range(len(p1)):
 
 
     if flower == "daisies" or flower == "daisy":
-        trtl.goto(700,200)
+        trtl.goto(-100,200)
         for _ in range(howmany-1):
                   trtl.pendown()
                   trtl.color("LightGrey")
@@ -263,7 +263,7 @@ for n in range(len(p1)):
                   trtl.right(180)
 
     if flower == "tulips" or flower == "tulip":
-      trtl.goto(-200,200)
+      trtl.goto(-400,200)
       for _ in range(howmany-1):
                 trtl.pendown()
                 trtl.fillcolor("Orange")
